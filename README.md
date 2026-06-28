@@ -1,95 +1,124 @@
-# Object-Oriented Programming (OOP)
+# Python Object-Oriented Programming (OOP)
 
 ## 📖 Overview
 
-This repository contains examples and implementations of **Object-Oriented Programming (OOP)** concepts. The project demonstrates how to design and develop software using classes and objects while following OOP principles.
+This project demonstrates the core concepts of **Object-Oriented Programming (OOP)** in Python. It includes examples of classes, objects, inheritance, polymorphism, encapsulation, and abstraction to help understand how OOP is used to build clean, reusable, and maintainable applications.
 
 ## 🚀 Features
 
-* Class and Object implementation
-* Constructors and Destructors
+* Class and Object creation
+* Constructors (`__init__`)
+* Instance and Class Variables
+* Instance, Class, and Static Methods
 * Encapsulation
-* Abstraction
 * Inheritance
 * Polymorphism
-* Method Overloading and Overriding
-* Access Modifiers
-* Real-world OOP examples
-
-## 🛠️ Technologies Used
-
-* Language: C++ / Java / Python (Update according to your project)
-* IDE: Visual Studio Code / Code::Blocks / IntelliJ IDEA
+* Abstraction using Abstract Base Classes (ABC)
+* Method Overriding
+* Real-world examples
 
 ## 📂 Project Structure
 
-```
-OOP/
-│── src/
-│   ├── main.cpp
-│   ├── Student.cpp
-│   ├── Student.h
+```text
+python-oop/
+│── main.py
+│── person.py
+│── student.py
+│── employee.py
 │── examples/
 │── README.md
 ```
 
-## 📚 OOP Concepts
+## 🛠️ Requirements
 
-### 1. Class
+* Python 3.8 or higher
 
-A blueprint used to create objects.
+## ▶️ Running the Project
 
-### 2. Object
-
-An instance of a class containing data and methods.
-
-### 3. Encapsulation
-
-Wrapping data and methods into a single unit while restricting direct access to data.
-
-### 4. Abstraction
-
-Hiding implementation details and exposing only essential functionality.
-
-### 5. Inheritance
-
-Creating a new class from an existing class to reuse code.
-
-### 6. Polymorphism
-
-Allowing one interface to represent multiple implementations.
-
-## ▶️ How to Run
-
-### C++
+1. Clone the repository:
 
 ```bash
-g++ main.cpp -o program
-./program
+git clone https://github.com/your-username/python-oop.git
 ```
 
-### Java
+2. Navigate to the project directory:
 
 ```bash
-javac Main.java
-java Main
+cd python-oop
 ```
 
-### Python
+3. Run the program:
 
 ```bash
 python main.py
 ```
 
+## 📚 OOP Concepts Covered
+
+### 1. Class
+
+A blueprint for creating objects.
+
+### 2. Object
+
+An instance of a class with its own attributes and methods.
+
+### 3. Constructor
+
+The `__init__()` method initializes object attributes when an object is created.
+
+### 4. Encapsulation
+
+Restricts direct access to object data by using methods or properties.
+
+### 5. Inheritance
+
+Allows a child class to inherit attributes and methods from a parent class.
+
+### 6. Polymorphism
+
+Allows different classes to implement the same method in different ways.
+
+### 7. Abstraction
+
+Hides implementation details using abstract classes from the `abc` module.
+
+## 📌 Example
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+
+dog = Dog()
+dog.speak()
+```
+
+**Output**
+
+```text
+Dog barks
+```
+
 ## 🎯 Learning Objectives
 
-* Understand the fundamentals of Object-Oriented Programming.
-* Apply OOP principles to solve real-world problems.
-* Write modular, reusable, and maintainable code.
+* Understand Python classes and objects.
+* Learn the four pillars of OOP:
+
+  * Encapsulation
+  * Abstraction
+  * Inheritance
+  * Polymorphism
+* Build reusable and modular Python programs.
+* Practice designing object-oriented applications.
 
 ## 🤝 Contributing
 
-Contributions are welcome. Feel free to fork the repository, create a new branch, and submit a pull request.
+Contributions are welcome! Feel free to fork the repository, improve the examples, and submit a pull request.
 
 ## 📄 License
 
