@@ -120,10 +120,3 @@ Dog barks
 
 Contributions are welcome! Feel free to fork the repository, improve the examples, and submit a pull request.
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-**Inam Ullah**
